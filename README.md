@@ -18,3 +18,22 @@ Each is compared against Scikit-learn’s LinearRegression for validation.
 - Custom implementations with NumPy
 - Feature scaling for gradient descent
 - Side-by-side comparison with Scikit-learn
+
+# 🛠️ Methods
+
+- Normal Equation → Direct closed-form solution
+- Batch Gradient Descent → Iterative updates using all samples
+- Stochastic Gradient Descent → Updates using one sample at a time
+
+# 📌 Example
+
+# Fit Custom Models
+custom_lin_reg = MyLinearRegression().fit(X, y)
+custom_bgd = CustomBGDRegressor().fit(X_scaled, y)
+custom_sgd = CustomSGDRegressor().fit(X_scaled, y)
+
+# Compare with sklearn
+from sklearn.linear_model import LinearRegression
+lin_reg = LinearRegression().fit(X, y)
+
+

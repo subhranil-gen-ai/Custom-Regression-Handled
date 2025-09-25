@@ -27,13 +27,13 @@ Each is compared against Scikit-learn’s LinearRegression for validation.
 
 # 📌 Example
 
-# Fit Custom Models
-custom_lin_reg = MyLinearRegression().fit(X, y)
-custom_bgd = CustomBGDRegressor().fit(X_scaled, y)
-custom_sgd = CustomSGDRegressor().fit(X_scaled, y)
+- Fit Custom Models
+  - custom_lin_reg = MyLinearRegression().fit(X, y)
+  - custom_bgd = CustomBGDRegressor().fit(X_scaled, y)
+  - custom_sgd = CustomSGDRegressor().fit(X_scaled, y)
 
-# Compare with sklearn
-from sklearn.linear_model import LinearRegression
-lin_reg = LinearRegression().fit(X, y)
+- Compare with sklearn
+  - from sklearn.linear_model import LinearRegression
+  - lin_reg = LinearRegression().fit(X, y)
 
 

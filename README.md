@@ -37,3 +37,7 @@ Each is compared against Scikit-learn’s LinearRegression for validation.
   - lin_reg = LinearRegression().fit(X, y)
 
 
+## 👨‍💻 Author
+*Subhranil Dutta*  
+CSE | GenAI Learner | AI & ML Enthusiast | Python Developer  
+🔗 [GitHub Profile](https://github.com/subhranil-gen-ai)
